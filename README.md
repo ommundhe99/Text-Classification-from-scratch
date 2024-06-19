@@ -136,7 +136,7 @@ model.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"]
 
 <h2 id="training">Training</h2>
 <p>Train the model:</p>
-<pre><code>epochs = 3
+<pre><code>epochs = 15
 model.fit(train_ds, validation_data=val_ds, epochs=epochs)
 </code></pre>
 
