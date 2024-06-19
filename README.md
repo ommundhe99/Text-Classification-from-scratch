@@ -1,4 +1,4 @@
-Text Classification from Scratch
+# Text Classification from Scratch
 Project Overview
 This project demonstrates text sentiment classification starting from raw text files, specifically using the IMDB movie review dataset. The implementation leverages the TextVectorization layer for word splitting and indexing, and uses a simple 1D convolutional neural network (CNN) for classification. The project is optimized for GPU acceleration.
 
@@ -53,8 +53,7 @@ rm -r aclImdb/train/unsup
 Data Preprocessing
 Generate labeled datasets using text_dataset_from_directory:
 
-python
-Copy code
+
 batch_size = 32
 raw_train_ds = keras.utils.text_dataset_from_directory(
     "aclImdb/train",
